@@ -51,6 +51,7 @@ body {
 	text-align: center;
 	color: #FFFFFF;
 	text-decoration: none;
+	border: none;
 }
 
 
@@ -83,6 +84,12 @@ body {
 
 //Меню
 @import "componets/nav";
+
+//Контакты
+@import "componets/contacts";
+
+//Форма
+@import "componets/form";
 
 //Хлебные крошки
 @import "componets/breadcrumb";

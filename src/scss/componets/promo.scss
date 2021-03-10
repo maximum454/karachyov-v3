@@ -1,0 +1,27 @@
+.promo{
+  margin-bottom: 100px;
+  &__row{
+    display: grid;
+    grid-template-columns: 1fr 279px;
+    grid-column-gap: 70px;
+  }
+  &__title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    margin: 0 0 30px;
+  }
+  &__subtitle{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #5C5C5C;
+    margin-bottom: 40px;
+  }
+}

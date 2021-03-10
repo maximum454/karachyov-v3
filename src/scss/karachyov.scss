@@ -1,0 +1,93 @@
+@import 'partials/normalize';
+@import 'mixin';
+@import 'fonts';
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	&.lock {
+		overflow: hidden;
+	}
+}
+
+.wrp {
+	overflow: hidden;
+}
+.d-none{
+	display: none;
+}
+
+.container {
+	max-width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 35px;
+	width: fit-content;
+	background: linear-gradient(90deg, #00B39B -6.25%, #0769AD 107.03%);
+	border-radius: 3px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+//Шапка
+@import "componets/header";
+
+//Главная навигация
+@import "componets/nav";
+
+//Главная промо
+@import "componets/promo";
+
+//Подвал
+@import "componets/footer";
+
+//внутряняя стрница
+@import "componets/main";
+
+//На главной
+@import "componets/post";
+
+//На главной
+@import "componets/work";
+
+//Новости на главной
+@import "componets/blog";
+
+//Пагинация
+@import "componets/pagination";
+
+//Меню
+@import "componets/nav";
+
+//Хлебные крошки
+@import "componets/breadcrumb";
+
+//Страница 404
+@import "componets/page404";
+
+

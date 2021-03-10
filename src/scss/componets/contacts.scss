@@ -33,4 +33,15 @@
     color: #333333;
     margin-bottom: 16px;
   }
+  @include r(767){
+    &__header{
+      order: 1;
+    }
+    &__form{
+      order: 3;
+    }
+    &__info{
+     order: 2;
+    }
+  }
 }

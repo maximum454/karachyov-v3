@@ -1,16 +1,21 @@
 .header {
-  padding: 7px 0;
-  margin-bottom: 180px;
-    &__row{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-  &__logo{
-    img{
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
-  }
+	padding: 7px 0;
+	margin-bottom: 180px;
+
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__logo {
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	@include r(767){
+		margin-bottom: 60px;
+	}
 }

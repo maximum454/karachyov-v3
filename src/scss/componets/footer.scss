@@ -1,49 +1,64 @@
 .footer {
-  padding: 30px 0;
-  &__row{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
-    grid-gap: 60px;
-  }
-  &__logo{
-    margin-bottom: 10px;
-  }
-  &__title{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-    color: #333333;
-    margin: 0 0 25px;
-  }
-  &__list{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li{
-      margin-bottom: 15px;
-      a{
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #5C5C5C;
-        text-decoration: none;
-      }
-    }
-  }
-  &__text{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    color: #5C5C5C;
-    margin: 0 0 20px;
-  }
-  @include r(767){
+	padding: 30px 0;
 
-  }
+	&__row {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+		grid-gap: 60px;
+	}
+
+	&__logo {
+		margin-bottom: 10px;
+	}
+
+	&__title {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 33px;
+		color: #333333;
+		margin: 0 0 25px;
+	}
+
+	&__list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			margin-bottom: 15px;
+
+			a {
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 19px;
+				color: #5C5C5C;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&__text {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 21px;
+		color: #5C5C5C;
+		margin: 0 0 20px;
+	}
+
+	@include r(767) {
+		&__nav{
+			display: none;
+		}
+	}
+	@include r(374){
+		&__contacts{
+			display: none;
+		}
+	}
 }

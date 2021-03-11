@@ -5,6 +5,9 @@
     grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
     grid-gap: 60px;
   }
+  &__logo{
+    margin-bottom: 10px;
+  }
   &__title{
     font-family: Open Sans;
     font-style: normal;
@@ -12,7 +15,7 @@
     font-size: 24px;
     line-height: 33px;
     color: #333333;
-    margin: 0 0 20px;
+    margin: 0 0 25px;
   }
   &__list{
     margin: 0;
@@ -30,6 +33,15 @@
         text-decoration: none;
       }
     }
+  }
+  &__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5C5C5C;
+    margin: 0 0 20px;
   }
   @include r(767){
 

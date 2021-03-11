@@ -702,6 +702,10 @@ body.lock {
   grid-gap: 60px;
 }
 
+.footer__logo {
+  margin-bottom: 10px;
+}
+
 .footer__title {
   font-family: Open Sans;
   font-style: normal;
@@ -709,7 +713,7 @@ body.lock {
   font-size: 24px;
   line-height: 33px;
   color: #333333;
-  margin: 0 0 20px;
+  margin: 0 0 25px;
 }
 
 .footer__list {
@@ -730,6 +734,16 @@ body.lock {
   line-height: 19px;
   color: #5C5C5C;
   text-decoration: none;
+}
+
+.footer__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #5C5C5C;
+  margin: 0 0 20px;
 }
 
 .post {
@@ -906,7 +920,22 @@ body.lock {
   font-size: 18px;
   line-height: 25px;
   color: #333333;
-  margin: 0;
+  margin: 0 0 20px;
+}
+
+.work__link {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.work__link.active,
+.work__link:hover {
+  color: #00B39B;
 }
 
 .nav__btn {

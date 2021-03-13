@@ -73,6 +73,9 @@
 		line-height: 25px;
 		color: #333333;
 		margin: 0;
+		p{
+			margin: 0;
+		}
 	}
 	@include r(767){
 		&__link {

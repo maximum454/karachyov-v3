@@ -861,6 +861,10 @@ body.lock {
   margin: 0;
 }
 
+.post__anons p {
+  margin: 0;
+}
+
 .work {
   margin: 60px 0;
 }
